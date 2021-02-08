@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { ComponentD } from './Show';
+import { TaskA } from './TaskA';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <ComponentD name='caicai'/>
+      <TaskA />
     </div>
   );
 }
